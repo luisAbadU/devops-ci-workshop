@@ -17,3 +17,8 @@
 - **Archivo:** requirements.txt
 -- **Problema:** Pytest no estaba definido en el requierements.txt
 -- **Solucion:** Escribirlo
+
+## Error 4
+-- **Archivo:** app.py
+-- **Problema:** El endpoint devolvía estatus running y el otro ok
+-- **Solución:** Se dejó ambos en ok
