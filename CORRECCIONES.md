@@ -12,3 +12,8 @@
 - **Archivo:** app.py
 -- **Problema:** El endpoint no tenia el campo uptime_seconds
 -- **Solución:** Agregar el campo, ademas de importar el time para restarlo con el boot_time y obtener los segundos
+
+## Error 3
+- **Archivo:** requirements.txt
+-- **Problema:** Pytest no estaba definido en el requierements.txt
+-- **Solucion:** Escribirlo
