@@ -9,3 +9,6 @@
 - **Solución:** Cambiarla por /metrics
 
 ## Error 2
+- **Archivo:** app.py
+-- **Problema:** El endpoint no tenia el campo uptime_seconds
+-- **Solución:** Agregar el campo, ademas de importar el time para restarlo con el boot_time y obtener los segundos
