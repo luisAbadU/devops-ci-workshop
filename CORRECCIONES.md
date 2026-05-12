@@ -5,8 +5,8 @@
 
 ## Error 1 
 - **Archivo:** app.py
-- **Problema:** La ruta estaba definida como /metric y en el resto de archivos la llamaba como /metrics
-- **Solución:** Cambiarla por /metrics
+- **Problema:** La ruta estaba definida como /metric y en el resto de archivos la llamaba como /metrics.
+- **Solución:** Cambiarla por /metrics, se cambio la ruta por la definida en el README 5000.
 
 ## Error 2
 - **Archivo:** app.py
