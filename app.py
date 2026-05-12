@@ -16,7 +16,8 @@ def health():
     return jsonify({
         "cpu_percent": cpu,
         "memory_percent": mem,
-        "status": "healthy" if cpu < 80 and mem < 80 else "unhealthy"
+        "status": "healthy" if cpu < 80 and mem < 80 else "unhealthy",
+        "uptime_seconds": uptime_seconds
     })
 
 @app.route('/metrics')
