@@ -25,5 +25,10 @@
 
 ## Error 5
 -- **Archivo:** docker-compose.yml
--- **Problema:** Los contenedores no tenian nombre
--- **Solución:** Se añadieron los nombres
+-- **Problema:** Los contenedores no tenian nombre ni estaba definida la imagen de la api, ademas del depend
+-- **Solución:** Se añadieron los nombres, la imagen y el depends on
+
+## Error 6
+-- **Archivo:** dockerfile
+-- **Problema:** Tenia la version python 3.11(muy pesada)
+-- **Solución:**Se le puso la version python slim
