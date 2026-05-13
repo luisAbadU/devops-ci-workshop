@@ -1,7 +1,7 @@
 #Correcciones
 **Integrantes:**
-- Nombre 1
-- Nombre 2
+- Simón Alberto Casadiego Chacón
+- Luis Miguel Abad
 
 ## Error 1 
 - **Archivo:** app.py y prometheus.yml
