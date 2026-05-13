@@ -4,7 +4,7 @@
 - Nombre 2
 
 ## Error 1 
-- **Archivo:** app.py
+- **Archivo:** app.py y prometheus.yml
 - **Problema:** La ruta estaba definida como /metric y en el resto de archivos la llamaba como /metrics.
 - **Solución:** Cambiarla por /metrics, se cambio la ruta por la definida en el README 5000.
 
@@ -22,3 +22,8 @@
 -- **Archivo:** app.py
 -- **Problema:** El endpoint devolvía estatus running y el otro ok
 -- **Solución:** Se dejó ambos en ok
+
+## Error 5
+-- **Archivo:** docker-compose.yml
+-- **Problema:** Los contenedores no tenian nombre
+-- **Solución:** Se añadieron los nombres
